@@ -6,8 +6,6 @@
 
 ### **Project Overview**
 
-**Can we predict user sentiment based solely on network topology?**
-
 This project simulates the dynamics of **Social Balance Theory** to predict how users form affinity for new nodes (people/content) in a network. Across three experimental studies, I modeled triadic closure, which is the principle that drives social recommendation engines (e.g., friend of a friend).
 
 By manipulating the valence of network connections (Positive vs. Negative edges), I identified the conditions under which **Algorithmic Suggestions** succeed (Assimilation) or backfire (Contrast), validating the predictive framework used in optimizing social graphs.
