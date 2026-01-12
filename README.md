@@ -8,14 +8,14 @@
 
 **Can we predict user sentiment based solely on network topology?**
 
-This project simulates the dynamics of **Social Balance Theory** to predict how users form affinity for new nodes (people/content) in a network. Across three experimental studies, I modeled "Triadic Closure"—the principle that drives social recommendation engines (e.g., "Friend of a Friend").
+This project simulates the dynamics of **Social Balance Theory** to predict how users form affinity for new nodes (people/content) in a network. Across three experimental studies, I modeled triadic closure, which is the principle that drives social recommendation engines (e.g., friend of a friend).
 
-By manipulating the valence of network connections (Positive vs. Negative edges), I identified the conditions under which **Algorithmic Suggestions** succeed (Assimilation) or backfire (Contrast), providing a predictive framework for optimizing social graphs.
+By manipulating the valence of network connections (Positive vs. Negative edges), I identified the conditions under which **Algorithmic Suggestions** succeed (Assimilation) or backfire (Contrast), validating the predictive framework used in optimizing social graphs.
 
 > **📄 Publication:**
 > Francemone, C. J., & Grizzard, M. (2025). Evidence of balance theory as a predictive framework for character interdependence. *Journal of Communication.*
 > <br>
-> [**[Read the Full Paper (PDF)]**](Francemone_Balance_Theory_2025.pdf)
+> [**Read the Full Paper (PDF)**](Francemone_Balance_Theory_2025.pdf)
 
 ---
 
