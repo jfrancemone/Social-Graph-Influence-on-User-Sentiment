@@ -12,7 +12,7 @@ By manipulating the valence of network connections (Positive vs. Negative edges)
 
 > **📄 Publication:**
 > Francemone, C. J., & Grizzard, M. (2025). Evidence of balance theory as a predictive framework for character interdependence. *Journal of Communication.*
-> <br>
+> 
 > [**Read the Full Paper (PDF)**](Francemone_Balance_Theory_2025.pdf)
 
 ---
