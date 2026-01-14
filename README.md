@@ -6,9 +6,9 @@
 
 ### **Project Overview**
 
-This project simulates the dynamics of **Social Balance Theory** to predict how users form affinity for new nodes (people/content) in a network. Across three experimental studies, I modeled triadic closure, which is the principle that drives social recommendation engines (e.g., friend of a friend).
+This project simulates the dynamics of **Social Balance Theory** to predict how users develop attitudes towards new nodes (people/content) in a network. Across three experimental studies, I modeled triadic closure, which is the principle that drives social recommendation engines (e.g., friend of a friend).
 
-By manipulating the valence of network connections (Positive vs. Negative edges), I identified the conditions under which **Algorithmic Suggestions** succeed (Assimilation) or backfire (Contrast), validating the predictive framework used in optimizing social graphs.
+By manipulating the valence of network connections (Positive vs. Negative), I identified the conditions under which **Algorithmic Suggestions** succeed (Assimilation) or backfire (Contrast), validating the predictive framework used in optimizing social graphs.
 
 > **📄 Publication:**
 > Francemone, C. J., & Grizzard, M. (2025). Evidence of balance theory as a predictive framework for character interdependence. *Journal of Communication.*
@@ -23,15 +23,15 @@ By manipulating the valence of network connections (Positive vs. Negative edges)
 Content is not judged in a vacuum.
 * **The Finding:** A user's evaluation of a target is significantly biased by their relationship with the *introducer* (the intermediary node).
 * **The Mechanism:** **Assimilation** (liking what your friends like) and **Contrast** (disliking what your enemies like) accounted for variance in sentiment even when the target's actual behavior was ambiguous.
-* **Application:** In recommendation systems, the "Source" of the recommendation (e.g., "Liked by [Friend]") is as predictive of engagement as the content itself.
+* **Application:** In recommendation systems, the source of the recommendation (e.g., liked by friend) is as predictive of engagement.
 
 #### **2. The "Enemy of My Enemy" Effect**
-* **The Finding:** Negative relationships in a social graph are highly predictive. Users consistently formed positive alliances with targets who were antagonistic toward a shared "enemy."
+* **The Finding:** Negative relationships in a social graph are highly predictive. Users consistently formed positive perceptions of targets who were antagonistic toward a shared enemy.
 * **Strategic Insight:** Algorithms that only optimize for positive engagement miss valid connection opportunities driven by shared out-groups or competitive dynamics.
 
 #### **3. Predicting Algorithmic Backfire**
-* **The Risk:** Connecting a user to a target via a "negative node" (a disliked intermediary) consistently resulted in lower affinity than a cold start (no connection).
-* **Trust & Safety:** Algorithms must account for "Negative Graph Latency"—avoiding recommendations that traverse through blocked or muted user nodes to prevent "Contrast Effects."
+* **The Risk:** Connecting a user to a target via a negative node (a disliked intermediary) consistently resulted in lower affinity than a cold start (no connection).
+* **Trust & Safety:** Algorithms must account for Negative Graph Latency by avoiding recommendations that traverse through blocked or muted user nodes.
 
 ---
 
@@ -42,10 +42,10 @@ Content is not judged in a vacuum.
 * **Framework:** **Heider’s Balance Theory** (P-O-X Triads) applied to network structures.
 * **Analysis:**
     * **Factorial ANOVA:** To test main effects of network valence on sentiment.
-    * **Contrast Analysis:** To measure the magnitude of Assimilation vs. Contrast effects.
+    * **Path Analysis:** To measure the magnitude of assimilation and contrast effects.
 * **Tools:**
     * **SPSS:** Primary statistical modeling.
-    * **Process Macro:** Mediation and moderation analysis.
+    * **AMOS:** Mediation and moderation analysis.
 
 ---
 
