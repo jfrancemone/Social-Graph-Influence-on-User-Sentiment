@@ -33,6 +33,8 @@ Content is not judged in a vacuum.
 * **The Risk:** Connecting a user to a target via a negative node (a disliked intermediary) consistently resulted in lower affinity than a cold start (no connection).
 * **Trust & Safety:** Algorithms must account for Negative Graph Latency by avoiding recommendations that traverse through blocked or muted user nodes.
 
+<img src="Path_Model_Visualization.png" alt="Path Model Results" width="75%">
+
 ---
 
 ### **Methodology**
@@ -59,8 +61,8 @@ Content is not judged in a vacuum.
 │   ├── [A/B/C]_Disposition.amw                   <-- Measurement validity for network nodes
 │   ├── Study_1_Data.sav                          <-- Original dataset
 │   ├── Study_1_Data.csv                          <-- Converted dataset
-│   ├── Study_1_Output.csv                        <-- Model results and direct effect sizes
-│   └── Study_1_Syntax.sps                        <-- SPSS syntax for data preprocessing
+│   ├── Study_1_Output.csv                        <-- Factorial ANOVAs and main effects
+│   └── Study_1_Syntax.sps                        <-- Syntax for ANOVAs and main effects
 │
 ├── /Study 2                                      <-- High-Powered Replication (Robustness Check)
 │   └── (Contains identical data/model artifacts to Study 1)
