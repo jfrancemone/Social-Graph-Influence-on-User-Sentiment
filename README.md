@@ -55,8 +55,8 @@ Content is not judged in a vacuum.
 /Social-Graph-Dynamics-and-Predictive-Interaction
 │
 ├── /Study 1                                      <-- Initial Investigation (Triadic Balance)
-│   ├── Path_Model.amw                            <-- Primary Path Model: Modeling network balance via mediation analysis
-│   ├── [A/B/C]_Disposition.amw                   <-- Node-Level CFAs: Measurement validity for each node in the model
+│   ├── Path_Model.amw                            <-- Mediation analysis of network balance
+│   ├── [A/B/C]_Disposition.amw                   <-- Measurement validity for network nodes
 │   ├── Study_1_Data.sav                          <-- Original dataset
 │   ├── Study_1_Data.csv                          <-- Converted dataset
 │   ├── Study_1_Output.csv                        <-- Model results and direct effect sizes
