@@ -52,19 +52,29 @@ Content is not judged in a vacuum.
 ### **Repository Structure**
 
 ```text
-/Social-Graph-Dynamics-and-Predictive-Interaction-Modeling
+/Social-Graph-Dynamics-and-Predictive-Interaction
 │
-├── /data
-│   ├── Study1_Triads.csv          <-- Anonymized interaction data
-│   ├── Study2_Network_Valence.csv <-- Valence manipulation data
-│   └── Study3_Replication.csv     <-- Replication dataset
+├── /Study 1                                      <-- Initial Investigation (Triadic Balance)
+│   ├── Path_Model.amw                            <-- Primary Path Model: Modeling network balance via mediation analysis
+│   ├── [A/B/C]_Disposition.amw                   <-- Node-Level CFAs: Measurement validity for each node in the model
+│   ├── Study_1_Data.sav                          <-- Original dataset
+│   ├── Study_1_Data.csv                          <-- Converted dataset
+│   ├── Study_1_Output.csv                        <-- Model results and direct effect sizes
+│   └── Study_1_Syntax.sps                        <-- SPSS syntax for data preprocessing
 │
-├── /analysis
-│   ├── Syntax_ANOVA.sps           <-- SPSS syntax for group comparisons
-│   └── Balance_Theory_Logic.sps   <-- Syntax defining P-O-X relationships
+├── /Study 2                                      <-- High-Powered Replication (Robustness Check)
+│   └── (Contains identical data/model artifacts to Study 1)
 │
-├── /results
-│   ├── Triad_Visualization.png    <-- Visual of the Social Balance Model
-│   └── Effect_Size_Tables.pdf     <-- Statistical output summary
+├── /Study 3                                      <-- Randomized Measurement Replication
+│   └── (Contains identical data/model artifacts to Study 1)
 │
-└── Francemone_Balance_Theory_2025.pdf  <-- Full published manuscript
+└── Francemone_Balance_Theory_2025.pdf            <-- Full published manuscript
+```
+
+---
+
+### **My Role**
+**Lead Quantitative Researcher**
+* Designed and executed the experimental framework to test social graph dynamics (Triadic Closure).
+* Built the causal path models (AMOS) to quantify assimilation and contrast effects in user sentiment.
+* Managed data collection and replication across three distinct studies (N ≈ 1,000) to ensure result robustness.
